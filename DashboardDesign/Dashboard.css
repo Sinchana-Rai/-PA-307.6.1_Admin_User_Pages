@@ -1,0 +1,131 @@
+.Dashboard_Section{
+    /* display: flex;
+    flex-wrap: wrap;
+    margin: 8 px;
+    border-color: solid red;
+    height: 100%; */
+
+    display:flex;
+    width: 400px;
+    height: 400px;
+    flex-wrap: wrap;
+    margin: 8 px;
+    /* background-color: aquamarine; */
+    /* border-color: solid red; */
+}
+
+/* .container-fluid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    border: 1px solid lightgrey;
+    padding: 10px;
+} */
+
+.page_header1{
+    justify-content: center;
+}
+
+.page_menu{
+    border-color: red;
+}
+
+
+
+li:hover {
+    background-color: lightblue;
+  }
+
+.box{
+  
+    flex:1 1 100px;
+    background-color: lightgray;
+    padding: 30px;
+    text-align: center;
+    /* border: 1px solid #ddd; */
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    /* border: 1px solid gray; */
+    padding: 10px;
+}
+
+.card{
+    flex: 1 1 200px;
+    background-color: lightgray;
+    align-items: center;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    /* border: 1px solid gray; */
+    padding: 10px;
+}
+.card-title{
+  
+    
+}
+
+
+
+/* Project Progress */
+
+.project-list {
+    /* border: 5px solid rgb(248, 136, 56); */
+    background-color: lightgray;
+    width: 30%;
+    display: flex;
+    padding: 15px;
+    /* flex-direction: column; */
+}
+.Project-progress {
+    margin-bottom: 30px;
+    width: 95%;
+}
+
+.proj_prog {
+    width: 95%;
+    margin: 10px 0;
+}
+.proj_prog h5{
+    margin-bottom: 0px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.progress1 {
+    background-color: #5f5959;
+}
+.percentage {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 10px;
+}
+.percentage span {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.pr1 {
+    width: 90%;
+    background-color: green;
+}
+.pr2 {
+    width: 80%;
+    background-color: rgb(71, 176, 71);
+}
+.pr3 {
+    width: 93%;
+    background-color: rgb(31, 57, 31);
+}
+
+
+
